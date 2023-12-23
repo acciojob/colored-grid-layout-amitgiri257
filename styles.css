@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.grid-container{
+	display:grid;
+	grid-template-column:auto auto auto auto;
+	grid-template-row:auto auto auto auto auto;
+	gap:10px
+}
+.row{
+background:green;
+	color:white;
+	font-size:4vw;
+	height:80px
+
+	
+}
+.item1{
+	
+	 grid-column:  1/span 5;
+}
+.item2{
+	
+	 grid-row:  1/span 4;
+}
