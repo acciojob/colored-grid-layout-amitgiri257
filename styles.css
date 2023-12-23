@@ -1,23 +1,64 @@
 /*  your css code here. If applicable */
 .grid-container{
 	display:grid;
-	grid-template-column:auto auto auto auto;
-	grid-template-row:auto auto auto auto auto;
+	grid-template-column:repeat(4,1fr);
+	grid-template-row:repeat(5,1fr);
 	gap:10px
 }
 .row{
 background:green;
 	color:white;
 	font-size:4vw;
-	height:80px
 
 	
 }
 .item1{
-	
-	 grid-column:  1/span 5;
+		 grid-row:  1/span 1;
+
+	 grid-column:  1/span 4;
 }
 .item2{
 	
-	 grid-row:  1/span 4;
+	 grid-row:  2/span 4;
+	 grid-column:  1/span 1;
+}
+.item3{
+	
+	 grid-row:  2/span 1;
+	 grid-column:  2/span 1;
+}
+.item4{
+	
+	 grid-row:  2/span 1;
+	 grid-column:  3/span 2;
+}
+.item5{
+	
+	 grid-row:  3/span 1;
+	 grid-column:  2/span 2;
+}
+.item6{
+	
+	 grid-row: 3/span 1 ;
+	 grid-column: 4/span 1 ;
+}
+.item7{
+	
+	 grid-row: 4/span 1 ;
+	 grid-column: 2/span 1 ;
+}
+.item8{
+	
+	 grid-row: 4/span 1 ;
+	 grid-column: 3/span 1 ;
+}
+.item9{
+	
+	 grid-row: 4/span 1 ;
+	 grid-column: 4/span 1 ;
+}
+.item10{
+	
+	 grid-row: 5/span 1 ;
+	 grid-column: 2/span 3 ;
 }
